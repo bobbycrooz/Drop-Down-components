@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.drop_cont nav {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.drop_cont nav .drop_btn {
+  width: 400px;
+  background-color: #242526;
+  color: #b0b3b8;
+  line-height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.drop_cont nav .drop_btn i {
+  float: right;
+  line-height: 50px;
+  cursor: pointer;
+}
+.drop_cont nav .hide_bar {
+  display: none;
+}
+.drop_cont nav .wrapper {
+  display: none;
+  position: absolute;
+  top: 64px;
+  width: 400px;
+  height: 10px;
+  background: #242526;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.drop_cont nav .wrapper.show_bar {
+  display: block;
+  display: flex;
+}
+.drop_cont nav .wrapper ul {
+  list-style: none;
+  width: 400px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.drop_cont nav .wrapper ul li {
+  line-height: 55px;
+}
+.drop_cont nav .wrapper ul li:hover {
+  background: #3a3b3c;
+}
+.drop_cont nav .wrapper ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #b0b3b8;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 8px;
+}
+.drop_cont nav .wrapper ul li a .icon {
+  height: 40px;
+  width: 40px;
+  margin-right: 13px;
+  background-color: #ffffff1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+}
+.drop_cont nav .wrapper ul li a i {
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+}
+.drop_cont nav .wrapper .settings_bar {
+  display: none;
+}
+.drop_cont nav .wrapper .settings_bar .arrow {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #b0b3b8;
+  font-weight: 500;
+  cursor: pointer;
+}
+.drop_cont nav .wrapper .settings_bar .arrow span {
+  margin-right: 15px;
+}
+.drop_cont nav .wrapper .help_bar {
+  display: none;
+}
+.drop_cont nav .wrapper .help_bar .arrow {
+  padding-left: 10px;
+  font-size: 20px;
+  color: #b0b3b8;
+  font-weight: 500;
+  cursor: pointer;
+}
+.drop_cont nav .wrapper .help_bar .arrow span {
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */
